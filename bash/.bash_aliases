@@ -76,5 +76,5 @@ alias anping="ansible all -m ping -v"
 
 #update-stuff
 
-# alias update-aliases="curl -o ~/.bash_aliases https://git.srlx.xyz/radpivm/setup-tools/raw/branch/main/bash/.bash_aliases && source ~/.bashrc"
+# alias update-aliases="curl -o ~/.bash_aliases https://git.srlx.xyz/radpivm/setup-tools/raw/branch/main/bash/.bash_aliases && source #~/.bashrc"
 

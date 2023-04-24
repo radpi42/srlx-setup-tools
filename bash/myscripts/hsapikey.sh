@@ -1,7 +1,7 @@
 #!/bin/sh
 hs_apikey=$(docker exec headscale headscale apikeys create) #command to create the headscale api key 
-ntfy_url="https://ntfy.srlrd.com/headscale" #ntfy url to receive the notification
-email="headscale@srlxmail.xyz" #email address to receive the notification
+ntfy_url="https://ntfy.your.domain/category" #ntfy url to receive the notification
+email="your@email.address" #email address to receive the notification
 
 curl \
     -H "Email: $email" \
